@@ -1,0 +1,129 @@
+/* --- Global Reset and Base Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f2f5; /* Light, soft background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- Login Container and Card --- */
+.login-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; /* Max width for the form card */
+}
+
+.login-card {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1a237e; /* Deep Indigo - Primary brand color */
+    margin-bottom: 8px;
+}
+
+.card-subtitle {
+    color: #6c757d;
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+}
+
+/* --- Form Elements --- */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #00bcd4; /* Cyan border on focus */
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 188, 212, 0.2);
+}
+
+.forgot-link {
+    float: right;
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-top: 8px;
+    display: block;
+}
+
+.forgot-link:hover {
+    color: #1a237e;
+}
+
+/* --- Login Button --- */
+.login-button {
+    background-color: #00bcd4; /* Cyan - Accent Color */
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    background-color: #0097a7; /* Darker Cyan on hover */
+}
+
+.login-button:active {
+    transform: translateY(1px); /* Little press effect */
+}
+
+/* --- Sign Up Link Footer --- */
+.signup-link {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.signup-link a {
+    color: #1a237e;
+    font-weight: 600;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

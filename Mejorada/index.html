@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma-Inspired Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <a href="#home">My Brand</a>
+        </div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+            <a href="login.html" class="btn-login">Log In</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle navigation" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to Our Figma-Inspired Site</h1>
+            <p>A clean, responsive, and modern layout.</p>
+            <a href="#about" class="btn-primary">Learn More</a>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>About Us</h2>
+            <p>We are dedicated to creating beautiful, functional web experiences. This template provides a great starting point for your design.</p>
+        </section>
+
+        <section id="contact" class="content-section contact-bg">
+            <h2>Contact</h2>
+            <p>Reach out to us for any inquiries!</p>
+            <form class="contact-form">
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <center><a href="login.html">Click here to back Homepage</a></center>
+        <p>&copy; 2025 My Brand. All rights reserved.</p>
+    </footer>.
+    
+</body>
+</html>
