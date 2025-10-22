@@ -1,8 +1,8 @@
 <?php
     define('DB_HOST', 'localhost');
     define('DB_USER', 'root');
-    define('DB_PASSWORD', '123123123');
-    define('DB_NAME', 'domin2004');
+    define('DB_PASSWORD', '1235422');
+    define('DB_NAME', 'mejorada');
 
     try {
         $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
@@ -14,8 +14,8 @@
 
     $dbHost = "localhost";
     $dbUser = "root";
-    $dbPassword = "123123123";
-    $dbName = "domin2004";
+    $dbPassword = "1235422";
+    $dbName = "mejorada";
 
     $db = new mysqli($dbHost, $dbUser, $dbPassword, $dbName);
 
@@ -26,3 +26,4 @@
     }
 
 ?>
+
